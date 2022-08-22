@@ -2,7 +2,7 @@
 
 .about-us {
     background-color: #f5f5f5;
-    background-image: url(/image/hex.png);
+    background-image: url(./image/hex.png);
     padding: 60px 0;
     overflow: hidden;
     z-index: 10;
