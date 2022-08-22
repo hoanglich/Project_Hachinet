@@ -1,0 +1,121 @@
+
+/* language */
+
+.language {
+    background-color: #f7f7f7;
+    background-image: url(/image/hex.png);
+    z-index: 10;
+}
+
+.language-title {
+    position: relative;
+    padding-top: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.language-title::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 112px;
+    background-color: var(--color--yellow--);
+    bottom: -13px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.language-list {
+    margin-top: 70px;
+    padding-bottom: 70px;
+    justify-content: center;
+}
+
+.language-img {
+    margin-left: 32px;
+    width: 100px;
+    height: 100px;
+}
+
+.language-box-img {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.language-box-img::after {
+    content: "";
+    position: absolute;
+    height: 250%;
+    width: 50%;
+    z-index: 3;
+    top: -83px;
+    left: -130px;
+    transform: rotate(35deg);
+    background-color: var(--color--white--);
+    opacity: 0.5;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.language-box-img:hover::after {
+    left: 222px;;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+/* contact us */
+
+.contactUs {
+    background-color: #fff;
+}
+
+.box-contactus {
+    padding: 50px 0;
+}
+
+.box-contactus-inside {
+    border-radius: 6px;
+    background-color: #e3e3e3;
+    padding: 16px;
+}
+
+.contactUs-title {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 26px;
+
+}
+
+.number i,
+.number {
+    color: var(--color--black--);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.number-btn {
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+    width: 165px;
+    color: var(--color--white--);
+    transition: all .4s ease-in-out;
+}
+
+.number-btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.number-btn:hover {
+    text-shadow: 0px 0px 6px rgb(255 255 255);
+    box-shadow: 0px 5px 40px -10px rgb(0 0 0 / 57%);
+    width: 188px;
+    color: var(--color--black--);
+    letter-spacing: 5px;
+    transition: all .4s ease-in-out;
+    font-weight: bold;
+}
