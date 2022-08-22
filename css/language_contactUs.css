@@ -3,7 +3,7 @@
 
 .language {
     background-color: #f7f7f7;
-    background-image: url(/image/hex.png);
+    background-image: url(../image/hex.png);
     z-index: 10;
 }
 

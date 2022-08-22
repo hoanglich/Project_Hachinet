@@ -64,7 +64,7 @@
 
 .carousel-wrap-title-background_img {
     position: absolute;
-    background-image: url(/image/hex.png);
+    background-image: url(../image/hex.png);
     height: 550px;
     width: 550px;
     left: 0;
@@ -117,19 +117,12 @@
     overflow: hidden;
 }
 
-.half-carousel {
-    
-}
 
 .swiper-container {
     cursor: grab;
     height: 100%;
     width: 100%;
     position: relative;
-}
-
-.swiper-container-horizontal {
-
 }
 
 .swiper-wrap {
@@ -162,20 +155,6 @@
 
 .swiper-slide.active .swiper-slide_category{
     display: block;
-}
-
-.swiper-container_item {
-
-}
-
-.swiper-container_item-img {
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    
 }
 
 .swiper-container_item-img::after{
