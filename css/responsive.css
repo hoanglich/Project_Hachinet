@@ -110,6 +110,9 @@
     .header-contact{
         display: none;
     }
+    .share-container-list {
+        left: -70px;
+    }
     .container-content {
         width: 100%;
         top: 43%;
@@ -171,6 +174,7 @@
     .logoYellow{
         left: -50%;
     }
+
     .c-flex-direction-cl {
         flex-direction: column;   
     }
@@ -179,6 +183,9 @@
     }
     .dpl-block-c {
         display: block;
+    }
+    .dpl-flex-c {
+        display: flex;
     }
 
     
